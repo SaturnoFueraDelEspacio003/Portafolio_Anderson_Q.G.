@@ -1,0 +1,227 @@
+/* Quitar margin y el padding al boddy */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado (header) */
+header{
+    background-color: #003cff;
+    color: #ffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header > div img{
+    width: 100%;
+}
+
+header > p{
+    font-size: 30px;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav li{
+    list-style: none;
+    margin: 15px 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color, padding 0.4s;
+    border-radius: 15px;
+}
+
+nav> ul > li > a:hover{
+    background-color: #000;
+    padding: 20px;
+    color: #fff;
+    border: 1px solid #ffff;
+}
+
+/* Sub menús */
+.m_vertical{
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: absolute;
+    background-color: #007bff7d;
+    width: 100vw;
+}  
+
+.m_vertical li{
+    list-style: none;
+    margin: 15px;
+}
+
+.m_vertical a{
+    text-decoration: none;
+    color: #333;
+    transition: color 0.4s;
+}
+
+.m_horizontal li:hover .m_vertical{
+    display: block;
+}
+
+/* seccion 1 */
+
+.sec1{
+    background: linear-gradient(#003cff, #04207e);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+
+}
+
+.sec1 h1{
+    color: #fff;
+}
+
+.sec1 p{
+    font-size: 25px;
+    color: #fff
+}
+
+
+/* Seccion 2 */
+
+.sec2{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards div{
+    border-radius: 8px;
+    border: 1px solid #000;
+    width: 200px;
+    margin: 20px 20px;
+    text-align: center;
+    padding: 15px;
+    transition: box-shadow, width 0.4s;
+}
+
+.cards div:hover{
+    width: 220px;
+    box-shadow: 0px 0px 15px 2px #b6b6b6;
+    border: 3px solid #f4d50b;
+}
+
+.cards div h4{
+    color: #ecbc10;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.cards div h5{
+    color: #3ec02f;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cards div img{
+    width: 100%;
+    object-fit: contain;
+}
+
+/* Seccion 3 */
+
+.sec3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #cec7c7;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec3 h1{
+    padding: 10px 0 0 0;
+}
+
+.formulario{
+        background-color: #8080801f;
+        width: 350px;
+        text-align: center;
+        border-radius: 5px;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    
+    .txt{
+        width: 300px;
+        height: 35px;
+        margin: 5px;
+        border: none;
+        border: 1px solid #cdcaca;
+        border-radius: 5px;
+        padding: 0 10px 0 10px;
+    }
+    
+    .btn{
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        width: 100px;
+        height: 35px;
+        background-color:#007bff;
+        margin: 7px 0 10px 0;
+        border: none;
+        border-radius: 5px;
+    }
+    a{
+        font-size: 12px;
+        text-decoration: none;
+    }
+    .linea_divi{
+        width: 300px;
+        border-bottom: 1px solid #cdcaca;
+        margin: 18px auto 18px auto;
+        
+    }
+    .btn1{
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        background-color: #42b72a;
+        height: 35px;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 18px;
+}
+
+/* Pie de Página (footer) */
+
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}

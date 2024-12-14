@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #ffff00;
+    display: flex;
+    justify-content: space-between; 
+    }
+
+.icon{
+    padding-top: 10px;
+}
+
+header{
+    background-color: #ffff00;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+header > div{
+    width: 50px;
+    height: 100px;
+}
+
+header > img{
+    position: absolute;
+    width: 100px;
+}
+
+header > p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav li{
+    list-style: none;
+    margin: 15px 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #000;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color, padding 0.4s;
+    border-radius: 15px;
+}
+
+nav a:hover{
+    background-color: #4043ff;
+    padding: 20px;
+    color: #fff;
+    border: 3px solid #ffffff;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.portada{
+    position: relative;
+}
+
+.formulario{
+    background-color: #8080801f;
+    width: 350px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgb(221, 217, 217);
+    display: block;
+    margin: 0 auto;
+    height: 400px;
+}
+
+.txt{
+    width: 300px;
+    height: 35px;
+    margin: 5px;
+    border: none;
+    border: 1px solid #cdcaca;
+    border-radius: 5px;
+    padding: 0 10px 0 10px;
+}
+
+.btn{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    width: 307px;
+    height: 35px;
+    background-color: #ffd00f;
+    margin: 7px 0 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+a{
+    font-size: 12px;
+    text-decoration: none;
+}
+.linea_divi{
+    width: 300px;
+    border-bottom: 1px solid #cdcaca;
+    margin: 18px auto 18px auto;
+    
+}
+.btn{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #42b72a;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 18px;
+    border: 1px solid #b4b1b1;
+}
+
+.btn:hover{
+    background-color: #ffff00;
+    color: #000;
+    border: 3px solid #ffffff;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    height: 230px;
+    margin-top: 50px;
+}
